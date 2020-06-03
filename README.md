@@ -1,4 +1,4 @@
-# Classification of environmental sounds using 1D convolutional Neural network
+# Classification of environmental sounds using 1D convolutional Neural network on Urbansound8k dataset
 This is an implementation of the paper https://arxiv.org/abs/1904.08990
 It can deal with audio signals of any length as it splits the signal into
 overlapped frames using a sliding window, hence no data augmentation is required. Different architectures considering several
